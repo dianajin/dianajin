@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+
+body {
+background: url(http://www.borongaja.com/data_images/out/16/633768-martin-luther-king-jr-leader-in-the-african-american-civil-rights-movement.jpg);
+font-family:"Advent Pro", sans-serif;
+}   
+
+h1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 40%;
+    height: auto;
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+h1:hover {
+    opacity: 1.0;
+}
+
+h1:focus {
+    opacity: 1.0;
+}
+
+h3 {
+    position: relative;
+    top: 200px;
+    left: 300px;
+    width: 15%;
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+h3:hover {
+    opacity: 1;
+    background-color: #ffffcc;
+    border: 5px solid #ffffcc;
+    border-radius: 10px;
+}
+
+h3:focus{
+    opacity: 1;
+    background-color: #ffffcc;
+    border: 5px solid #ffffcc;
+    border-radius: 10px;
+}
+
+h3 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+p {
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+    border: 10px solid rgba(0, 0, 0, 0);
+    border-left-color: #ffffcc;
+    position: relative;
+    top: 155px;
+    left:270px;
+}

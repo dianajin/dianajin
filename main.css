@@ -1,0 +1,177 @@
+/* Generic CSS */
+
+body {
+    background: linear-gradient(#ffffff, #d3d3d3);
+    font-family: Arial, sans-serif;
+    padding: 5%;
+    font-size: .85em;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+}
+
+a[href] {
+    color: #000000;
+}
+a[href]:hover {
+    color: #0000ff;
+}
+
+a[href]:focus {
+    color: #0000ff;
+}
+
+li {
+    list-style-type: none;
+}
+
+blockquote {
+    background-color: #d3d3d3;
+    border: 5px solid #d3d3d3;
+    border-radius: 10px;
+    line-height: 1.5em;
+}
+
+/* Index Page CSS */
+h1 {
+    font-size: 3em;
+    text-shadow: 5px 5px 5px #c0c0c0;
+}
+
+h1 img {
+    float: right;
+    margin-top: -5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #d3d3d3;
+    border: 10px solid #d3d3d3;
+    border-radius: 10px;
+}
+
+#index-timeline-paragraph {
+    padding-top: 8%;
+}
+
+#index-awards {
+    text-align: left;
+    padding-bottom: 2px;
+}
+
+/* Civil Rights CSS */
+
+summary {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    font-variant: small-caps;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+#civil-demands {
+    font-family: Arial, sans-serif;
+}
+
+#civil-dream, #civil-mountaintop {
+    font-family: Arial, sans-serif; 
+    text-align: center;
+}
+
+/* Navigation CSS */
+#navigation {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: small-caps;
+    text-decoration: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    white-space: nowrap;
+
+}
+
+#navigation [href]:focus {
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: .005em;
+}
+
+#navigation [href]:hover {
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: .005em;
+}
+
+/* Table CSS */
+
+body table {
+    background-color: #D3D3D3;
+    border: 3px solid #d3d3d3;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 14px;
+    width: 63%;
+    margin-bottom: 2%;
+}
+
+table tr:nth-child(odd) {
+    background-color: #CCCCCC;
+}
+
+table td:first-child {
+    font-weight: 700;
+}
+
+table thead tr:only-child {
+    background-color: #FDFDFD;
+    font-weight: 700;
+}
+
+/* Figure CSS */
+#fig-1 {
+    float:left;
+    padding-top:11%;
+    padding-bottom: 5%;
+    margin-bottom: -3%;
+    margin-right: -10%;
+}
+
+#fig-1 img {
+    border: 13px solid #d3d3d3;
+}
+
+#fig-2 {
+    float: right;
+    margin-right: -35%;
+}
+
+figcaption {
+    font-style: italic;
+    width:50%;
+}
+
+/* Footer CSS */
+footer {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight:bolder;
+    padding-top: 3%;
+}
+
+#footer-quick {
+    font-size: 12px;
+    text-align: center;
+}
+
+#footer-quick [href]:hover {
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
